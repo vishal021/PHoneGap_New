@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" charset="utf-8">
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+		function onDeviceReady() {
+        // Now safe to use device APIs
+		navigator.splashscreen.hide();
+		alert("here");
+		}
+    }
+    </script>
+        <title>Hello World</title>
+    </head>
+    <body onload="onLoad()">
+        <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+    </body>
+</html>-->
+
+
+<html lang="en">
+	<head>
+	
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+          <script src="js/jquery-2.1.1.min.js"></script>
+
+        	<!-- Latest compiled and minified CSS -->
+        	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	
+	</head>
+	<body>
+    	<div class="container">
+            <div class="row">
+                 <div class="col-xs-4 col-sm-4" style="border:1px solid black;">Logo</div>
+                 <div class="col-xs-8 col-sm-8" style="border:1px solid black;">Company Name</div>
+            </div>
+             <div class="row">
+                 <div class="col-xs-12 col-sm-12 text-center" style="border:1px solid black;"><h2>Create Service Request</h2></div>
+            </div>
+            <div class="row">
+                <form class="form-horizontal" role="form">
+
+                  <div class="form-group">
+                    <label class="control-label col-xs-3 col-sm-3" for="order_type">W/O Type:</label>
+                    <div class="col-xs-9 col-sm-9">
+                      <select class="form-control" id="order_type">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label col-xs-3 col-sm-3" for="location">Location:</label>
+                    <div class="col-xs-7 col-sm-7">          
+                      <input  class="form-control" id="location" placeholder="Enter Location">
+                    </div>
+                    <div class="col-xs-2 col-sm-2">          
+                      <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-screenshot"></span></a>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label col-xs-3 col-sm-3" for="attachment">Attachments:</label>
+                    <div class="col-xs-7 col-sm-7 text-center">          
+                      <span id="attach_no">0</span><span> Attachment</span>
+                    </div>
+                    <div class="col-xs-2 col-sm-2">          
+                      <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-paperclip"></span></a>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label col-xs-3 col-sm-3" for="notes">Notes:</label>
+                    <div class="col-xs-9 col-sm-9">
+                       <textarea class="form-control"  id="notes"  placeholder="Enter Notes"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group">        
+                    <div class="col-xs-6 col-sm-6 ">
+                      <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-plus-sign"></span> Create Service</button>
+                    </div>
+                    <div  class="col-xs-6 col-sm-6 ">
+                      <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-remove-sign"></span> Clear</button>
+                    </div>
+                  </div>
+
+                </form>
+            </div>
+      </div>
+	
+	</body>
+
+		
+</html>
